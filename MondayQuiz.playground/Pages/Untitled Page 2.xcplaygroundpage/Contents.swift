@@ -12,7 +12,19 @@ Don't forget to call the function at the bottom
 
 import Foundation
 
+var ages = [   "Bob" : 18,
+            "Donald" : 20,
+               "Guy" : 10,
+              "Girl" : 12,
+              "Mike" : 21
+           ]
 
+// So wrong
+func getOlder (var input: Dictionary <String, Int>) -> Dictionary <String, Int> {
+    var dictionary = [input.values]
+    dictionary + 1
+    return dictionary
+}
 
 //: [Previous](@previous)
 //: [Next](@next)

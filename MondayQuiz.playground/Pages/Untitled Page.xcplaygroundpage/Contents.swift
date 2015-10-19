@@ -11,5 +11,18 @@ Don't forget to call the function at the bottom
 import Foundation
 
 
+var isCoding = true
+
+func canBugMe(coding: Bool) -> (){
+    if coding == true {
+        print("Don't bug me!")
+    } else {
+        print("What's up?")
+    }
+}
+
+canBugMe(isCoding)
+
+
 //: [Previous](@previous)
 //: [Next](@next)
